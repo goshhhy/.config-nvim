@@ -4,7 +4,7 @@
 first, ensure you have a [nerd-compatible font](https://github.com/ryanoasis/nerd-fonts) 
 installed and set up in your terminal - this configuration needs them.
 
-then, if you are using neovim, clone into ~/.config/nvim/.
+then, if you are using neovim, clone into `~/.config/nvim/`.
 
 if you are using vim, do the same, then run:
 
@@ -20,4 +20,5 @@ using neovim instead.
 
 if using neovim, you can set up autocomplete plugins and language servers 
 by following [coc-nvim](https://github.com/neoclide/coc.nvim)'s instructions.
-if you have clangd installed, this configuration should work out of the box.
+if you have clangd installed, this configuration should use that for C-like
+languages out of the box.
