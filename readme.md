@@ -15,7 +15,8 @@ using their official instructions.
 
 this configuration will work with standard vim, but functionality will be
 slightly degraded: the vscode-like autocomplete provided by coc-nvim will
-not work, and the appearance will be slightly less polished. i recommend
+not work, clicking the buffers in the bufferlist along the top will not
+switch to them, and the appearance will be slightly less polished. i recommend
 using neovim instead.
 
 if using neovim, you can set up autocomplete plugins and language servers 
